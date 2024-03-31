@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hecto_project
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:mem:db;MODE=MYSQL;
+    username: sa
+    password:
+    sql:
+      init:
+        mode: always
+
+
+
